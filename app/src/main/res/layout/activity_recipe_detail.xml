@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- 레시피 이미지 -->
+        <ImageView
+            android:id="@+id/recipeDetailImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop" />
+
+        <!-- 레시피 이름 -->
+        <TextView
+            android:id="@+id/recipeDetailNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingTop="16dp" />
+
+        <!-- 영양 정보 -->
+        <TextView
+            android:id="@+id/recipeDetailNutritionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Information"
+            android:paddingTop="8dp" />
+
+        <!-- 레시피 내용 -->
+        <TextView
+            android:id="@+id/recipeDetailContentsTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recipe content goes here..."
+            android:paddingTop="8dp" />
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

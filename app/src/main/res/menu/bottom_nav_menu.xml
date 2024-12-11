@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_ingredient_recognition"
+        android:title="식재료 인식"
+        android:icon="@drawable/ic_ingredient"/>
+    <item
+        android:id="@+id/nav_emotion_prediction"
+        android:title="감정 예측"
+        android:icon="@drawable/ic_emotion"/>
+    <item
+        android:id="@+id/nav_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/nav_ingredients"
+        android:title="재료"
+        android:icon="@drawable/ic_ingredients"/>
+    <item
+        android:id="@+id/nav_my_page"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_my_page"/>
+</menu>

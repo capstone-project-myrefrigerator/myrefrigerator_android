@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/testqwak01"
+            android:contentDescription="Profile Image" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/weightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight: "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Height: "
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
